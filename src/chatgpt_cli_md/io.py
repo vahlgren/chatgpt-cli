@@ -13,7 +13,7 @@ from rich.live import Live
 from rich.markdown import Markdown
 from rich.panel import Panel
 
-from chatgpt_cli import __version__
+from chatgpt_cli_md import __version__
 
 console = Console()
 

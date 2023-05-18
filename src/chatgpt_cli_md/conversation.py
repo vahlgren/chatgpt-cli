@@ -4,7 +4,7 @@ from typing import List
 import openai
 import os
 
-from utils.file import *
+from chatgpt_cli_md.file import *
 
 
 def generate_response(messages: List[Dict[str, str]], use_streaming: bool) -> str:

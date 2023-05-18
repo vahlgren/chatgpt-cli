@@ -1,10 +1,10 @@
 import openai
 import os
 
-from chatgpt_cli.conversation import generate_response
-from utils.cmd import *
-from utils.file import *
-from utils.io import *
+from chatgpt_cli_md.conversation import generate_response
+from chatgpt_cli_md.cmd import *
+from chatgpt_cli_md.file import *
+from chatgpt_cli_md.io import *
 
 
 def get_script_dir() -> str:

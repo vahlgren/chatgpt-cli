@@ -1,5 +1,5 @@
-from chatgpt_cli.conversation import Conversation, Template
-from utils.io import *
+from chatgpt_cli_md.conversation import Conversation, Template
+from chatgpt_cli_md.io import *
 import re
 
 

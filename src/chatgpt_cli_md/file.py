@@ -3,8 +3,8 @@ import json
 import yaml
 from typing import Callable, Dict, List
 
-from chatgpt_cli import __version__
-from utils.io import *
+from chatgpt_cli_md import __version__
+from chatgpt_cli_md.io import *
 
 
 def get_data_dir(create=True) -> str:
